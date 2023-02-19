@@ -1,16 +1,34 @@
 {
   "name": "bd-calculator",
   "version": "1.0.0",
-  "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "test": "jest"
+  },
+  "jest": {
+    "preset": "jest-expo",
+    "transformIgnorePatterns": [
+      "node_modules/(?!((jest-)?react-native|@react-native(-community)?)|expo(nent)?|@expo(nent)?/.*|@expo-google-fonts/.*|react-navigation|@react-navigation/.*|@unimodules/.*|unimodules|sentry-expo|native-base|react-native-svg)"
+    ],
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "**/*.{ts,tsx}",
+      "!**/coverage/**",
+      "!**/node_modules/**",
+      "!**/babel.config.js",
+      "!**/jest.setup.js"
+    ]
   },
   "dependencies": {
+    "@expo/vector-icons": "^13.0.0",
     "expo": "~47.0.12",
+    "expo-linear-gradient": "~12.0.1",
     "expo-status-bar": "~1.4.2",
+    "jest-expo": "^47.0.1",
+    "mathjs": "^11.5.0",
     "react": "18.1.0",
     "react-dom": "18.1.0",
     "react-native": "0.70.5",
@@ -18,8 +36,17 @@
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
+    "@babel/preset-typescript": "^7.18.6",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/jest-native": "^5.4.1",
+    "@testing-library/react-native": "^11.5.1",
+    "@types/jest": "^29.4.0",
     "@types/react": "~18.0.14",
     "@types/react-native": "~0.70.6",
+    "@types/react-test-renderer": "^18.0.0",
+    "jest": "^26.6.3",
+    "react-test-renderer": "^18.2.0",
+    "ts-jest": "^29.0.5",
     "typescript": "^4.6.3"
   },
   "private": true

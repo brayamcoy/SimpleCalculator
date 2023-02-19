@@ -1,0 +1,154 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ButtonCalculator component Handles hover correctly 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Array [
+      Object {
+        "borderRadius": 5,
+        "padding": 35,
+      },
+      Object {
+        "backgroundColor": "rgba(255, 255, 255, 0.1)",
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "#FFF",
+        "fontSize": 16,
+        "fontWeight": "500",
+      }
+    }
+  >
+    1
+  </Text>
+</View>
+`;
+
+exports[`ButtonCalculator component Handles hover correctly 2`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Array [
+      Object {
+        "borderRadius": 5,
+        "padding": 35,
+      },
+      false,
+    ]
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "#FFF",
+        "fontSize": 16,
+        "fontWeight": "500",
+      }
+    }
+  >
+    1
+  </Text>
+</View>
+`;
+
+exports[`ButtonCalculator component renders correctly 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Array [
+      Object {
+        "borderRadius": 5,
+        "padding": 35,
+      },
+      false,
+    ]
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "#FFF",
+        "fontSize": 16,
+        "fontWeight": "500",
+      }
+    }
+  >
+    1
+  </Text>
+</View>
+`;
+
+exports[`ButtonCalculator component renders correctly with operator 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Array [
+      Object {
+        "borderRadius": 5,
+        "padding": 35,
+      },
+      false,
+    ]
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "#FFF",
+        "fontSize": 22,
+      }
+    }
+  >
+    1
+  </Text>
+</View>
+`;
